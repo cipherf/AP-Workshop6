@@ -5,6 +5,6 @@ public class Mammal extends Animal{
         this.speed = speed;
     }
     public void show(int row){
-        System.out.printf("%d. name : %s, age : %s, speed : %d, %s", row, name, age, speed, special);
+        System.out.printf("%d. name : %s, age : %s, speed : %d, %s\n", row, name, age, speed, special);
     }
 }

@@ -5,6 +5,6 @@ public class Bird extends Animal{
         this.heightOfFly = heightOfFly;
     }
     public void show(int row){
-        System.out.printf("%d. name : %s, age : %s, height of fly : %d, %s", row, name, age, heightOfFly, special);
+        System.out.printf("%d. name : %s, age : %s, height of fly : %d, %s\n", row, name, age, heightOfFly, special);
     }
 }
