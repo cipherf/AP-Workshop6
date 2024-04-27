@@ -6,6 +6,6 @@ public abstract class Mammal extends Animal {
     }
     @Override
     public void show() {
-        System.out.println("name:" + name +"age:" + age +"speed:" + speed + "info:" + info);
+        System.out.println(" name: " + name +" age:" + age +" speed: " + speed + " info: " + info);
     }
 }

@@ -7,6 +7,6 @@ public  abstract class Bird extends Animal {
 
     @Override
     public void show() {
-        System.out.println("name: " + name +" age: " + age +" height: " + height + " info: " + info);
+        System.out.println(" name: " + name +" age: " + age +" height: " + height + " info: " + info);
     }
 }
