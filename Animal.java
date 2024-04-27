@@ -9,4 +9,15 @@ public abstract class Animal {
     }
     public abstract void show();
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getInfo() {
+        return info;
+    }
 }
