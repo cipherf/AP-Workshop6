@@ -3,4 +3,8 @@ public class Parrot extends Bird implements Prey {
         super(name, age, height);
         super.ability = ability;
     }
+
+    public String getName() {
+        return name;
+    }
 }

@@ -3,4 +3,8 @@ public class Cheetah extends Mammal implements Hunter {
         super(name, age, speed);
         super.ability = ability;
     }
+
+    public void hunt(Prey prey) {
+        System.out.println(name + " hunted " + prey.getName());
+    }
 }

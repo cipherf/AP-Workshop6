@@ -3,4 +3,8 @@ public class Girafe extends Mammal implements Prey{
         super(name, age, speed);
         super.ability = ability;
     }
+
+    public String getName(){
+        return name;
+    }
 }

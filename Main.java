@@ -14,5 +14,7 @@ public class Main {
             animal.show();
             i++;
         }
+        eagle.hunt(parrot);
+        cheetah.hunt(girafe);
     }
 }
