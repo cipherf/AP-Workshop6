@@ -8,7 +8,7 @@ public class Giraffe extends Mammal implements Prey{
     @Override
     public void show() {
         //Row. name, age, height of fly/speed, animal special :
-        System.out.println("3.name: " + getName() + ",age: " + getAge() + ",special: " + special);
+        System.out.println(" name: " + getName() + ", age: " + getAge() + ", special: " + special);
     }
     @Override
     public String getName() {

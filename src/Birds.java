@@ -5,11 +5,7 @@ public abstract class Birds extends Animal{
         super(name, age);
         this.flightHeight = flightHeight;
     }
-    @Override
-    public void show() {
-        //Row. name, age, height of fly/speed, animal special :
-        System.out.println("2.name: " + getName() + ",age: " + getAge() + ",height of fly: " + getFlightHeight());
-    }
+    public abstract void show() ;
     public int getFlightHeight() {
         return flightHeight;
     }

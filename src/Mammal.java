@@ -5,11 +5,7 @@ public abstract class Mammal extends Animal{
         super(name, age);
         this.runningSpeed = runningSpeed;
     }
-    @Override
-    public void show() {
-        //Row. name, age, height of fly/speed, animal special :
-        System.out.println("1.name: " + getName() + ",age: " + getAge() + ",speed: " + getRunningSpeed());
-    }
+    public abstract void show() ;
     public int getRunningSpeed() {
         return runningSpeed;
     }

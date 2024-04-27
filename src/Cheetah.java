@@ -8,6 +8,6 @@ public class Cheetah extends Mammal implements Hunter{
     @Override
     public void show() {
         //Row. name, age, height of fly/speed, animal special :
-        System.out.println("3.name: " + getName() + ",age: " + getAge() + ",speed: " + getRunningSpeed() + ", " + special);
+        System.out.println(" name: " + getName() + ",age: " + getAge() + ",speed: " + getRunningSpeed() + ", special: " + special);
     }
 }
