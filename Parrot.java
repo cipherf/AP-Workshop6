@@ -1,2 +1,5 @@
-public class Carrot {
+public class Parrot extends Bird{
+}
+interface prey{
+
 }

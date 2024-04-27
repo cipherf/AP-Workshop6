@@ -1,2 +1,5 @@
-public class Cheetah {
+public class Cheetah extends Mammal{
+}
+interface Hunter{
+
 }
