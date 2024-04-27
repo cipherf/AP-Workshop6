@@ -16,6 +16,10 @@ public abstract class Birds extends Animal{
 
     @Override
     public void hunt(Prey prey) {
-        System.out.println(getName() + " hunted " + prey.getName());
+        if (prey instanceof Mammal) {
+            System.out.println(getName() + " hunted " + prey.getName());
+        } else {
+            System.out.println(getName() + " can't hunt " + prey.getName());
+        }
     }
 }

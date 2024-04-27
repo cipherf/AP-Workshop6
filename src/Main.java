@@ -14,5 +14,15 @@ public class Main {
             animal.show();
             counter++ ;
         }
+        System.out.println("------");
+        //create testcase for hunting :
+        Giraffe giraffe = new Giraffe("Giraffe", 1, 10, "Giraffe");
+        Parrot parrot = new Parrot("Parrot", 2, 20, "Parrot");
+        Eagle eagle = new Eagle("Eagle", 3, 100, "Eagle");
+        Cheetah cheetah = new Cheetah("Cheetah", 5, 100, "Cheetah");
+        giraffe.hunt(parrot);
+        eagle.hunt(parrot);
+        cheetah.hunt(parrot);
+        cheetah.hunt(giraffe);
     }
 }
