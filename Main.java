@@ -26,6 +26,8 @@ public class Main {
             num++;
         }
         System.out.println("success");
+        eagle1.hunt(parrot1);
+        
 
     }
 }
