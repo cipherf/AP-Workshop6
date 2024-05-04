@@ -14,4 +14,8 @@ public class Animal {
     public void show(){
         System.out.println("name: " + name + ", age: " + age + ", height of fly/speed: " + speed + ", \"" + ability + "\"");
     }
+
+    public String getName(){
+        return name;
+    }
 }
